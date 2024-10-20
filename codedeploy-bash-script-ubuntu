@@ -34,3 +34,5 @@ systemctl list-units --type=service | grep codedeploy
 
 # Check the status of the CodeDeploy agent service
 sudo service codedeploy-agent status
+#restart codedeploy-agent
+systemctl restart codedeploy-agent
